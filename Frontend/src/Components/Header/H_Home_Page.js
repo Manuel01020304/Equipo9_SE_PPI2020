@@ -7,18 +7,26 @@ function H_Mome_Page() {
       <div class="Contenedor">
         <h1 class="Nombre">EDUCATRAINNING</h1>
         <div class="Botones">
-          <button type="button" className="btn btn-warning">
-            <Link to="/plans"> PLANES </Link>
-          </button>{" "}
-          <button type="button" className="btn btn-warning">
-            <Link to="/alarm"> ALARMA </Link>
-          </button>{" "}
-          <button type="button" className="btn btn-warning">
-            <Link to="/information"> INFORMACIÓN </Link>
-          </button>{" "}
-          <button type="button" className="btn btn-warning">
-            <Link to="/profile"> PERFIL </Link>
-          </button>
+          <Link to="/plans">
+             <button type="button" className="btn btn-warning">
+                PLANES 
+             </button>
+          </Link>{" "}
+          <Link to="/alarm">
+             <button type="button" className="btn btn-warning">
+                ALARMA 
+             </button>
+          </Link>{" "}
+          <Link to="/information">
+             <button type="button" className="btn btn-warning">
+                INFORMACIÓN 
+             </button>
+          </Link>{" "}
+          <Link to="/profile">
+             <button type="button" className="btn btn-warning">
+                PERFIL 
+             </button>
+          </Link>
         </div>
       </div>
     </header>

@@ -16,18 +16,10 @@ function D_Sign_In() {
               />
             </p>
             <p>
-              <input
-                type="text"
-                name="e-mail"
-                placeholder="E-Mail"
-              />
+              <input type="text" name="e-mail" placeholder="E-Mail" />
             </p>
             <p>
-              <input
-                type="password"
-                name="contra"
-                placeholder="Contraseña"
-              />
+              <input type="password" name="contra" placeholder="Contraseña" />
             </p>
             <p>
               <input
@@ -36,9 +28,11 @@ function D_Sign_In() {
                 placeholder="Repetir contraseña"
               />
             </p>
-            <button type="submit" name="commit">
-               <Link to="/login"> Registrarse </Link> 
-            </button>
+            <Link to="/login">
+              <button type="submit" name="commit">
+                Registrarse
+              </button>
+            </Link>
           </form>
         </div>
       </section>

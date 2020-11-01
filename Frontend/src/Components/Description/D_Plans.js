@@ -17,7 +17,7 @@ function D_Plans() {
           <button type="button" class="btn-secondary">
             Entrar
           </button> <br/> <br/> <br/>
-          <h3>Quemar Grasa</h3>
+          <h3>Brasos</h3>
           <button type="button" class="btn-secondary">
             Entrar
           </button>

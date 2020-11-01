@@ -7,12 +7,16 @@ function H_Main_Page() {
       <div class="Contenedor">
         <h1 class="Nombre">EDUCATRAINNING</h1>
         <div class="Botones">
-          <button type="button" className="btn btn-warning">
-            <Link to="/sign_in"> REGISTRARSE </Link>
-          </button>{" "}
-          <button type="button" className="btn btn-warning">
-            <Link to="/login"> INICIAR SECCIÓN </Link>
-          </button>
+          <Link to="/sign_in">
+             <button type="button" className="btn btn-warning">
+                REGISTRARSE 
+             </button>
+          </Link>{" "}
+          <Link to="/login">
+             <button type="button" className="btn btn-warning">
+                INICIAR SECCIÓN 
+             </button>
+          </Link>
         </div>
       </div>
     </header>

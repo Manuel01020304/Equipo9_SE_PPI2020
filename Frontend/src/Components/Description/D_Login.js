@@ -22,9 +22,11 @@ function D_Login() {
                 placeholder="Contraseña"
               />
             </p>
-            <button type="submit" name="commit">
-              <Link to="/home_page"> Ingresar </Link>
-            </button>
+            <Link to="/home_page">
+               <button type="submit" name="commit">
+                  Ingresar 
+               </button>
+            </Link>
           </form>
         </div>
         <div class="login-ayuda">
