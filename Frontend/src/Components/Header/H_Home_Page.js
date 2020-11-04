@@ -6,7 +6,7 @@ function H_Mome_Page() {
     <header>
       <div class="Contenedor">
         <h1 class="Nombre">EDUCATRAINNING</h1>
-        <div class="Botones">
+        <div class="Botones2">
           <Link to="/plans">
              <button type="button" className="btn btn-warning">
                 PLANES 

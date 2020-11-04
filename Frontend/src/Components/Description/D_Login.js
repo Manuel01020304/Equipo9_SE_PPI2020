@@ -3,8 +3,8 @@ import { Link } from "react-router-dom";
 
 function D_Login() {
   return (
-    <div>
-      <section class="Contenedor2">
+    <div class="Contenedor2">
+      <selection>
         <div class="login">
           <h1>Ingresa tus datos</h1>
           <form method="post">
@@ -16,16 +16,12 @@ function D_Login() {
               />
             </p>
             <p>
-              <input
-                type="password"
-                name="contra"
-                placeholder="Contraseña"
-              />
+              <input type="password" name="contra" placeholder="Contraseña" />
             </p>
             <Link to="/home_page">
-               <button type="submit" name="commit">
-                  Ingresar 
-               </button>
+              <button type="submit" name="commit">
+                Ingresar
+              </button>
             </Link>
           </form>
         </div>
@@ -39,7 +35,7 @@ function D_Login() {
             <Link to="/sign_in"> Crea tu cuenta aquí </Link>.
           </p>
         </div>
-      </section>
+      </selection>
     </div>
   );
 }

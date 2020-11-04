@@ -3,8 +3,8 @@ import { Link } from "react-router-dom";
 
 function D_Sign_In() {
   return (
-    <div>
-      <section class="Contenedor2">
+    <div class="Contenedor2">
+      <section>
         <div class="login">
           <h1>Completa los siguientes datos</h1>
           <form method="post">

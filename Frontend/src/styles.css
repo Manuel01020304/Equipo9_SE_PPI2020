@@ -6,7 +6,15 @@
 .Contenedor {
   width: 100%;
   height: 60px;
-  background: rgb(0, 194, 0);
+  background-color: green;
+  display: flex;
+}
+
+.ContenedorI {
+  width: 100%;
+  height: 60px;
+  background-color: green;
+  display: flex;
 }
 
 .Nombre{
@@ -17,6 +25,25 @@
   padding: 3px;
   font-size: 30px;
   font-family: fantasy;
+  box-sizing: border-box;
+}
+
+.Botones {
+  width: 85%;
+  height: 60px;
+  padding: 10px;
+  float: left;
+  text-align: right;
+  box-sizing: border-box;
+}
+
+.Botones2 {
+  width: 85%;
+  height: 60px;
+  margin: 10px;
+  float: left;
+  text-align: right;
+  box-sizing: border-box;
 }
 
 .Menu {
@@ -43,14 +70,6 @@
   left: 70%;
 }
 
-.Botones {
-  width: 85%;
-  height: 60px;
-  padding: 10px;
-  float: left;
-  text-align: right;
-}
-
 .Fondo {
   width: 100%;
   height: 100%;
@@ -60,10 +79,6 @@
 .Fondo2 {
   width: 100%;
   height: 100%;
-}
-
-.Regresar {
-  margin: 10px;
 }
 
 .Registrarse {
@@ -112,13 +127,13 @@
 }
 
 .Contenedor3 {
-  width: 800px;
+  width: 600px;
   height: 800px;
   margin: auto;
   padding: 20px;
+  font-size: 25px;
   background: rgb(88, 206, 88);
   text-align: center;
-  position: relative;
 }
 
 .Ejercicios {
@@ -129,9 +144,15 @@
   margin-top: 30px;
 }
 
+.Regresar {
+  margin: 10px;
+}
+
 .Contenedor2 {
-  margin: 80px auto;
-  width: 600px;
+  display: flex;
+  margin: auto;
+  width: max-content;
+  height: max-content;
 }
 
 .login {
@@ -143,6 +164,13 @@
   border-radius: 3px;
   -webkit-box-shadow: 0 0 200px rgba(255,255,255,.5), 0 1px 2px rgba(0,0,0,.3);
   box-shadow: 0 0 200px rgba(255,255,255,.5), 0 1px 2px rgba(0,0,0,.3);
+}
+
+.login-ayuda {
+  font-size: 12px;
+  text-align: center;
+  text-shadow: 0 1px #fff;
+  margin: 5px;
 }
 
 .form {
@@ -199,9 +227,63 @@ button[type=submit] {
   left: 90px;
 }
 
-.login-ayuda {
-  margin: 20px 0;
-  font-size: 12px;
-  text-align: center;
-  text-shadow: 0 1px #fff;
+@media screen and (max-width: 650px){
+  .Contenedor{
+    display: grid;
+    width: 100%;
+    height: 120px;
+    text-align: center;
+  }
+
+  .Nombre{
+    width: 95%;
+    height: 40px;
+    margin: 10px;
+    padding: 3px;
+    font-size: 30px;
+    font-family: fantasy;
+    box-sizing: border-box;
+  }
+  
+  .Botones {
+    width: 95%;
+    height: max-content;
+    padding: 10px;
+    text-align: center;
+  }
+
+  .Botones2 {
+    width: 95%;
+    height: max-content;
+    text-align: center;
+  }
+
+  .Regresar {
+    margin: 10px;
+    width: 150px;
+    height: 35px;
+  }
+}
+
+@media screen and (max-width: 440px){
+  .Contenedor{
+    width: 100%;
+    height: 120px;
+    text-align: center;
+  }
+
+  .Nombre{
+    width: 95%;
+    height: 15px;
+    margin: 3px;
+    font-size: 25px;
+    font-family: fantasy;
+  }
+
+  .Botones2 {
+    width: 70%;
+    margin: auto;
+    height: max-content;
+    text-align: center;
+  }
 }

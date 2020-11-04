@@ -5,7 +5,7 @@ import Perfil from "../Images/Perfil.png";
 function H_Information() {
   return (
     <header>
-      <div class="Contenedor">
+      <div class="ContenedorI">
         <Link to="/home_page">
            <h1 class="Menu">MENÚ</h1>
         </Link>
