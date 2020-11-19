@@ -5,12 +5,11 @@ import Perfil from "../Images/Perfil.png";
 function H_Plans() {
   return (
     <header>
-      <div class="Contenedor">
+      <div class="ContenedorI">
         <Link to="/home_page">
            <h1 class="Menu">MENÚ</h1>
         </Link>
-        <div class="Titulo_Planes">PLANES QUE TENEMOS PARA TI</div>
-        <div class="C-Perfil">
+        <div class="C-Perfil2">
           <Link to="/profile">
             <img src={Perfil} alt="Perfil" className="Perfil" />
           </Link>

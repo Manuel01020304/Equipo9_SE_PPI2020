@@ -4,14 +4,13 @@ import { Link } from "react-router-dom";
 function H_Profile() {
   return (
     <header>
-      <div class="Contenedor">
+      <div class="Contenedor-Perfil">
         <Link to="/home_page">
           <h1 class="Menu">MENÚ</h1>
         </Link>
-        <div class="Titulo_Planes">PERFIL DE USUARIO</div>
         <div class="C-Sesion">
           <Link to="/">
-            <h1 class="Menu2">Cerrar Sesion</h1>
+            <h1 class="Menu2">CERRAR SESION</h1>
           </Link>
         </div>
       </div>

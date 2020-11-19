@@ -14,7 +14,7 @@ function H_Main_Page() {
           </Link>{" "}
           <Link to="/login">
              <button type="button" className="btn btn-warning">
-                INICIAR SECCIÓN 
+                INICIAR SESION 
              </button>
           </Link>
         </div>

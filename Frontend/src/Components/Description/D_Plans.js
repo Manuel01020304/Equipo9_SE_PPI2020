@@ -4,20 +4,21 @@ function D_Plans() {
   return (
     <body>
       <div class="Contenedor3">
-        <div class="Ejercicios">
-          <h3>Abdomen</h3>
+        <div class="Planes">
+          <h1 class="Titulos">PLANES QUE TENEMOS PARA TI</h1> <br/>
+          <h3 class="Ejercicios">Abdomen</h3>
           <button type="button" class="btn-secondary">
             Entrar
           </button> <br/> <br/> <br/>
-          <h3>Pecho</h3>
+          <h3 class="Ejercicios">Pecho</h3>
           <button type="button" class="btn-secondary">
             Entrar
           </button> <br/> <br/> <br/>
-          <h3>Piernas</h3>
+          <h3 class="Ejercicios">Piernas</h3>
           <button type="button" class="btn-secondary">
             Entrar
           </button> <br/> <br/> <br/>
-          <h3>Brasos</h3>
+          <h3 class="Ejercicios">Brasos</h3>
           <button type="button" class="btn-secondary">
             Entrar
           </button>

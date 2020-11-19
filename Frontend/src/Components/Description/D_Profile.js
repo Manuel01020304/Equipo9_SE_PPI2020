@@ -5,8 +5,11 @@ import Perfil from "../Images/Perfil.png";
 function D_Profile() {
   return (
     <header>
-      <div class="C-Perfil3">
+      <div class="contenedor-P">
+        <h1 class="Titulos">PERFIL DE USUARIO</h1>
+        <div class="C-Perfil3">
           <img src={Perfil} alt="Perfil" className="Perfil" />
+        </div>
       </div>
     </header>
   );
