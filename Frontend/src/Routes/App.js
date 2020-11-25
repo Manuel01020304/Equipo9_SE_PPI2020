@@ -8,6 +8,10 @@ import Plans from "../Pages/Plans";
 import Alarm from "../Pages/Alarm";
 import Information from "../Pages/Information";
 import Profile from "../Pages/Profile";
+import Exercise1 from "../Pages/Exercise1";
+import Exercise2 from "../Pages/Exercise2";
+import Exercise3 from "../Pages/Exercise3";
+import Exercise4 from "../Pages/Exercise4";
 import NotFound from "../Pages/NotFound";
 
 class App extends React.Component {
@@ -23,6 +27,10 @@ class App extends React.Component {
           <Route exact path="/alarm" component={Alarm} />
           <Route exact path="/information" component={Information} />
           <Route exact path="/profile" component={Profile} />
+          <Route exact path="/exercise1" component={Exercise1} />
+          <Route exact path="/exercise2" component={Exercise2} />
+          <Route exact path="/exercise3" component={Exercise3} />
+          <Route exact path="/exercise4" component={Exercise4} />
           <Route component={NotFound} />
         </Switch>
       </BrowserRouter>
