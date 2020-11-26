@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 function H_Mome_Page() {
   return (
     <header>
-      <div class="Contenedor">
+      <div class="ContenedorH">
         <h1 class="Nombre">EDUCATRAINNING</h1>
         <div class="Botones2">
           <Link to="/plans">

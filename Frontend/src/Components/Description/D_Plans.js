@@ -27,13 +27,6 @@ function D_Plans() {
               Entrar
             </button>
           </Link>{" "}
-          <br /> <br /> <br />
-          <h3 class="Ejercicios">Brasos</h3>
-          <Link to="/exercise4">
-            <button type="button" class="btn-secondary">
-              Entrar
-            </button>
-          </Link>
         </div>
       </div>
     </body>

@@ -10,8 +10,6 @@ function D_Information() {
         <h3 class="Info">Abraham Franco Álvarez</h3> <br/> <br/>
         <h1 class="Titulos">COMO CONTACTARNOS</h1>
         <h2 class="Info">GMAIL</h2>
-        <h3 class="Info">kevinsierracartagena@gmail.com</h3>
-        <h3 class="Info">manueleme03@gmail.com</h3>
       </div>
     </body>
   );

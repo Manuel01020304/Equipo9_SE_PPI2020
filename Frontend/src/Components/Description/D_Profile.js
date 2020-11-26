@@ -10,6 +10,9 @@ function D_Profile() {
         <div class="C-Perfil3">
           <img src={Perfil} alt="Perfil" className="Perfil" />
         </div>
+        <h2 class="I_Perfil">Nombre:</h2> <br />
+        <h2 class="I_Perfil">Edad:</h2> <br />
+        <h2 class="I_Perfil">Correo:</h2> <br />
       </div>
     </header>
   );
