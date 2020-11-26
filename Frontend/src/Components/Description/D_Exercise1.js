@@ -7,7 +7,7 @@ import Ejercicio1_3 from "../Images/Ejercicio1_3.gif"
 function D_Exercise1() {
   return (
     <body>
-      <div class="Contenedor3">
+      <div class="ContenedorE">
         <div class="Planes">
           <h1 class="Titulos">EJERCICIOS ABDOMEN</h1> <br />
           <div class="Exercises">

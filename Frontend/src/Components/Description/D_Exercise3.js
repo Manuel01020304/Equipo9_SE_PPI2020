@@ -7,7 +7,7 @@ import Ejercicio3_3 from "../Images/Ejercicio3_3.jpg"
 function D_Exercise3() {
   return (
     <body>
-      <div class="Contenedor3">
+      <div class="ContenedorE">
         <div class="Planes">
           <h1 class="Titulos">EJERCICIOS PIERNAS</h1> <br />
           <div class="Exercises">

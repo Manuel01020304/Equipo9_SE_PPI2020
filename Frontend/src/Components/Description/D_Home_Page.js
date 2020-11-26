@@ -5,7 +5,8 @@ import Fondo2 from "../Images/Fondo2.jpg";
 function D_Home_Page() {
   return (
     <body>
-      <img src={Fondo2} alt="Fondo2" align="left" className="Fondo2" />;
+      <img src={Fondo2} alt="Fondo2" align="left" className="Fondo2" />
+      <div class="ContenedorS"></div>
     </body>
   );
 }
